@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\ClientApp\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\LectionsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\QuestionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ResultPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\StartPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TestingPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TestsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Colors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\LectionsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\QuestionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ResultPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\StartPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TestingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TestsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

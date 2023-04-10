@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="Primary">#512BD4</Color>
+    <Color x:Key="Secondary">#DFD8F7</Color>
+    <Color x:Key="Tertiary">#2B0B98</Color>
+
+    <Color x:Key="Blue100Accent">#3E8EED</Color>
+    <Color x:Key="Blue200Accent">#72ACF1</Color>
+    <Color x:Key="Blue300Accent">#A7CBF6</Color>
+
+    <Color x:Key="LightText">#FFFFFF</Color>
+    <Color x:Key="DarkText">#050a56</Color>
+
+    <Color x:Key="Gray100">#E1E1E1</Color>
+    <Color x:Key="Gray200">#C8C8C8</Color>
+    <Color x:Key="Gray300">#ACACAC</Color>
+
+    <SolidColorBrush x:Name="PrimaryBrush"  x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>
+
+    <SolidColorBrush x:Key="Blue100AccentBrush" Color="{StaticResource Blue100Accent}"/>
+    <SolidColorBrush x:Key="Blue200AccentBrush" Color="{StaticResource Blue200Accent}"/>
+    <SolidColorBrush x:Key="Blue300AccentBrush" Color="{StaticResource Blue300Accent}"/>
+
+    <SolidColorBrush x:Key="LightTextBrush" Color="{StaticResource LightText}"/>
+    <SolidColorBrush x:Key="DarkTextBrush" Color="{StaticResource DarkText}"/>
+
+    <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}"/>
+    <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}"/>
+    <SolidColorBrush x:Key="Gray300Brush" Color="{StaticResource Gray300}"/>
+    
+</ResourceDictionary>

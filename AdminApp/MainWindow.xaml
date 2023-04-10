@@ -1,0 +1,35 @@
+﻿<Window x:Class="AdminApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdminApp"
+        xmlns:v="clr-namespace:AdminApp.View"
+        mc:Ignorable="d"
+        Title="Администрирование" Height="450" Width="800" Icon="/appicon.ico">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Результаты">
+                <Frame>
+                    <Frame.Content>
+                        <v:ResultsPage/>
+                    </Frame.Content>
+                </Frame>
+            </TabItem>
+            <TabItem Header="Лекции">
+                <Frame>
+                    <Frame.Content>
+                        <v:LectionsPage/>
+                    </Frame.Content>
+                </Frame>
+            </TabItem>
+            <TabItem Header="Тесты">
+                <Frame>
+                    <Frame.Content>
+                        <v:TestsPage/>
+                    </Frame.Content>
+                </Frame>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

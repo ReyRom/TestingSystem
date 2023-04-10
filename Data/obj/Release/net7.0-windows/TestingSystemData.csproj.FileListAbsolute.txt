@@ -1,0 +1,10 @@
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\bin\Release\net7.0-windows\TestingSystemData.deps.json
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\bin\Release\net7.0-windows\TestingSystemData.dll
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\obj\Release\net7.0-windows\TestingSystemData.csproj.AssemblyReference.cache
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\obj\Release\net7.0-windows\TestingSystemData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\obj\Release\net7.0-windows\TestingSystemData.AssemblyInfoInputs.cache
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\obj\Release\net7.0-windows\TestingSystemData.AssemblyInfo.cs
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\obj\Release\net7.0-windows\TestingSystemData.csproj.CoreCompileInputs.cache
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\obj\Release\net7.0-windows\TestingSystemData.dll
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\obj\Release\net7.0-windows\refint\TestingSystemData.dll
+C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\Data\obj\Release\net7.0-windows\ref\TestingSystemData.dll

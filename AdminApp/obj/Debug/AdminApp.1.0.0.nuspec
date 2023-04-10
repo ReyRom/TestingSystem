@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AdminApp</id>
+    <version>1.0.0</version>
+    <authors>AdminApp</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0">
+        <dependency id="TestingSystemData" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net7.0-windows7.0/appicon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\AdminApp\bin\Debug\net7.0-windows\AdminApp.runtimeconfig.json" target="lib\net7.0-windows7.0\AdminApp.runtimeconfig.json" />
+    <file src="C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\AdminApp\bin\Debug\net7.0-windows\AdminApp.dll" target="lib\net7.0-windows7.0\AdminApp.dll" />
+    <file src="C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\AdminApp\appicon.ico" target="content\appicon.ico" />
+    <file src="C:\Users\s03ro\OneDrive\Документы\GitHub\TestingSystem\AdminApp\appicon.ico" target="contentFiles\any\net7.0-windows7.0\appicon.ico" />
+  </files>
+</package>

@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="ClientApp.View.QuestionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClientApp.View"
+             xmlns:vm="clr-namespace:ClientApp.ViewModel"
+             xmlns:res="clr-namespace:ClientApp.Resources"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="500">
+    <StackPanel>
+        <TextBlock Text="{Binding Text}" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+        <ItemsControl ItemsSource="{Binding Answers}">
+            <ItemsControl.ItemTemplateSelector>
+                <res:AnswerTemplateSelector>
+                    <res:AnswerTemplateSelector.OneAnswer>
+                        <DataTemplate>
+                            <Grid MinHeight="40">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="40"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <RadioButton IsChecked="{Binding IsSelected}" GroupName="Answer" VerticalAlignment="Center"/>
+                                <CheckBox IsChecked="{Binding IsSelected}" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" >
+                                    <CheckBox.Style>
+                                        <Style TargetType="CheckBox">
+                                            <Setter Property="Template">
+                                                <Setter.Value>
+                                                    <ControlTemplate TargetType="CheckBox">
+                                                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </CheckBox.Style>
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Text}"/>
+                                    </StackPanel>
+                                 </CheckBox>
+                            </Grid>
+                        </DataTemplate>
+                    </res:AnswerTemplateSelector.OneAnswer>
+                    <res:AnswerTemplateSelector.ManyAnswer>
+                        <DataTemplate>
+                            <Grid MinHeight="40">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="40"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <CheckBox Grid.Column="0"  IsChecked="{Binding IsSelected}" VerticalAlignment="Center"/>
+                                <CheckBox IsChecked="{Binding IsSelected}" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                    <CheckBox.Style>
+                                        <Style TargetType="CheckBox">
+                                            <Setter Property="Template">
+                                                <Setter.Value>
+                                                    <ControlTemplate TargetType="CheckBox">
+                                                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </CheckBox.Style>
+                                    <TextBlock Text="{Binding Text}"/>
+                                </CheckBox>
+                            </Grid>
+                        </DataTemplate>
+                    </res:AnswerTemplateSelector.ManyAnswer>
+                </res:AnswerTemplateSelector>
+            </ItemsControl.ItemTemplateSelector>
+        </ItemsControl>
+    </StackPanel>
+</UserControl>
